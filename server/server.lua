@@ -33,13 +33,13 @@ AddEventHandler('premium-doctor:novac', function()
 end)
 
 local getajresourcename = GetCurrentResourceName()
-if getajresourcename ~= "premium_doktor" then
+if getajresourcename ~= "insaneious_npcdoctor" then
 	print("                                             #")
 	print("                                             ###")
 	print("###### ###### ###### ###### ######  ##############")
-	print("#      #    # #    # #    # #    #  ################    Promjeni '" .. getajresourcename .. "' u 'premium_doktor'")
-	print("###    ###### ###### #    # ######  ##################  ili ces dobiti DDOS i SKRIPTA NECE RADITI!")
-	print("#      # ##   # ##   #    # # ##    ################    OSTAVI IME SKRIPTE KAKO JE DAJ REKLAMU NA ESX BALKANU !!!")
+	print("#      #    # #    # #    # #    #  ################")
+	print("###    ###### ###### #    # ######  ################## Promjeni '" .. getajresourcename .. "' u 'insaneious_npcdoctor'")
+	print("#      # ##   # ##   #    # # ##    ################")
 	print("###### #   ## #   ## ###### #   ##  ##############")
 	print("                                             ###")
 	print("                                             #")
