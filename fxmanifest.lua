@@ -6,11 +6,11 @@ author 'insa'
 description 'npc doktor'
 
 client_scripts {
-    'client/klajent.lua',
-    'konfig.lua'
+    'client/client.lua',
+    'config.lua'
 }
 
 server_scripts {
     'server/server.lua',
-    'konfig.lua'
+    'config.lua'
 }
